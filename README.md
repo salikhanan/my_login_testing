@@ -13,10 +13,10 @@ To run the application start it after installing the requirements with:
 
 ```
 On Windows:
-   set FLASK_APP=demo_app
+   set FLASK_APP=login_app
    
 On Linux:
-   export FLASK_APP=demo_app
+   export FLASK_APP=login_app
 
 flask init-db
 flask run --host=0.0.0.0 --port=8080
