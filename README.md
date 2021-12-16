@@ -19,7 +19,7 @@ On Linux:
    export FLASK_APP=login_app
 
 flask init-db
-flask run --host=0.0.0.0 --port=8080
+flask run --host=127.0.0.1 --port=5000
 ```
 
 Alternatively, a Dockerfile is provided.
